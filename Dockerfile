@@ -1,6 +1,6 @@
 FROM gliderlabs/alpine:3.3
 
-ENV NOMAD_VERSION=0.5.6
+ENV NOMAD_VERSION=0.9.0
 ENV GLIBC_VERSION "2.23-r1"
 
 RUN apk add curl bash jq coreutils --no-cache
